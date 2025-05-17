@@ -1,0 +1,18 @@
+- Write a SQL query that orders the items by price.
+Select item_name
+From superstore
+order by Price;
+- Write your own SQL query that will show a statistic about the item prices, like a sum, average, minimum, maximum, or count.
+Select avg(price)
+From superstore
+- Write your own SQL query that will show a statistic about the price for items in the category of "Kitchen Supplies".
+NOTE: The values in the categories column are called text strings, and text strings are case sensitive. That means if you want to select "Kitchen Supplies", you will need to type it exactly as it appears in the data, i.e., with a capital "K" and a capital "S".
+Select avg(price)
+From superstore
+Where catergory="kithen Supplies"
+;
+Write a SQL that show the average price in items sold?
+Select avg(price)
+From superstore
+Order by item_name
+;
